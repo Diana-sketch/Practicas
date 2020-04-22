@@ -1,0 +1,137 @@
+#contenedor{
+    color: black;
+    width: 960px;
+    background-color: darkblue;
+    margin: auto;
+}
+#banner{
+    width: 880px;
+    height: 200px;
+    margin: auto;
+    background-color: chartreuse;
+}
+#banner:hover{
+    background-color: blue;  
+    transition-duration: 5s;
+}
+@keyframes cnav{
+    
+    25% {background-color:green;} /*Naranja*/
+    50% {background-color: yellow;} /*Negro*/
+    75% {background-color: orange;} /*Otra vez naranja*/
+   100% {background-color: red} /*Otra vez amarillo*/
+ }
+#navegacion{
+    border-radius: 10px 10px 0 0;
+    height: 50px;
+    width: 880px;
+    background-color: deepskyblue;
+    margin: auto;
+    margin-top: 10px;
+
+    animation-name: cnav;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+   
+}
+.blu{
+    width: 880px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+#menu{
+    margin-left: 40px;
+     height: 500px;
+     width: 220px;
+     background-color: grey;
+ }
+ .btns{
+     width: 220px;
+    height: 100px;
+ }
+ .btn1{border-top: solid 1px black;}
+ .btn2{border-top: solid 1px black;}
+ .btn3{border-top: solid 1px black;}
+ .btn4{border-top: solid 1px black;}
+ .btn5{border-top: solid 1px black;}
+ .btn2:hover{
+    
+     height: 150px;
+    transition-duration: 2s;
+    background-color: lightslategray;
+ }
+ .btn3:hover{
+    height: 150px;
+    transition-duration: 2s;
+    background-color: black;
+}
+.btn4:hover{
+    height: 150px;
+    transition-duration: 2s;
+    background-color: lightblue;
+}
+.btn5:hover{
+    height: 150px;
+    transition-duration: 2s;
+    background-color: red;
+}
+ .bla{
+    width: 640px;
+}
+@keyframes cmg{
+    50% {background-color: yellow;} /*Naranja*/
+    100% {background-color: orange;} /*Negro*/
+    
+ }
+#migajas{
+    height: 30px;
+    width: 650px;
+    display: inline-block;
+    background-color: goldenrod;
+
+    animation-name: cmg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#contenido{
+    width: 650px;
+    height: 450px;
+    margin-top: 20px;
+    background-color: darkgray;
+}
+.text1{
+    text-align: justify;
+    padding: 15px;
+}
+@font-face{
+    font-family: Comic;
+    src: url(../fuente/ComicSansMS3.ttf);
+}
+.text2{
+    font-family: Comic;
+    padding: 15px;
+}
+.text3{
+    text-align: justify;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes cpie{
+    
+    25% {background-color: blue;} /*Naranja*/
+    50% {background-color: green;} /*Negro*/
+    75% {background-color: red;} /*Otra vez naranja*/
+   100% {background-color: black;} /*Otra vez amarillo*/
+ }
+#pie{
+    margin:10px auto;
+    width: 880px;
+    height: 100px;
+    background-color: rgb(214, 102, 214);
+
+    animation-name: cpie;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}

@@ -1,0 +1,70 @@
+label{
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 16px;
+    margin-left: 770px;
+}
+#contenedor{
+    background-color: darkblue;
+    width: 960px;
+    margin: auto;
+}
+#banner{
+    width: 880px;
+    height: 200px;
+    background-color: dimgrey;
+    margin: auto;
+}
+#navegacion{
+    margin: auto;
+    width: 880px;
+    height: 50px;
+    background-color: gold;
+    margin-top: 10px;
+}
+#bienvenida{
+    background-color: deepskyblue;
+    height: 320px;
+    width: 880px;
+    margin: auto;
+    margin-top: 10px;
+}
+.bloque{
+    margin-left: 210px;
+    height: 398px;
+}
+#bloque1{
+    width: 286px;
+    height: 400px;
+    background-color: dimgray;
+    margin-left: 40px;
+    margin-top: 10px;
+    display:inline-block
+    
+}
+
+#bloque2{
+    width: 286px;
+    height: 400px;
+    background-color: dimgray;
+    margin-left: 7px;
+    margin-top: 10px;
+    display:inline-block
+}
+
+#bloque3{
+    width: 286px;
+    height: 400px;
+    background-color: dimgray;
+    margin-left: 7px;
+    margin-right: 40px;
+    margin-top: 10px;
+    display:inline-block
+}
+#pie{
+    margin:10px auto;
+    width: 880px;
+    height: 100px;
+    
+    background-color: orangered;
+}

@@ -1,0 +1,54 @@
+#contenedor{
+    width: 960px;
+    background-color: gray;
+    margin: auto;
+}
+#banner{
+    width: 880px;
+    height: 200px;
+    margin: auto;
+    background-color: darkblue;
+}
+#navegacion{
+    height: 50px;
+    width: 880px;
+    background-color: deepskyblue;
+    margin: auto;
+    margin-top: 10px;
+}
+.blu{
+    width: 880px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+#menu{
+    margin-left: 40px;
+     height: 500px;
+     width: 220px;
+     background-color: yellow;
+ }
+ .bla{
+    width: 640px;
+   
+}
+#migajas{
+    height: 30px;
+    width: 650px;
+    display: inline-block;
+    background-color: goldenrod;
+}
+#contenido{
+    width: 650px;
+    height: 450px;
+    margin-top: 20px;
+    background-color: darkgray;
+}
+#pie{
+    margin:10px auto;
+    width: 880px;
+    height: 100px;
+    background-color: rgb(1, 109, 217);
+    
+}
